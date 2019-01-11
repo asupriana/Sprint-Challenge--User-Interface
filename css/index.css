@@ -89,7 +89,7 @@ p {
 }
 
 .nav-bar header nav a:hover{
-    background-color:blue;
+    background-color: teal;
     transform: scale(1.1);
     color:white;
     padding: 5px 10px;
@@ -241,7 +241,7 @@ footer nav a {
     transition:.2s;
 }
 .paraContainer .para a:hover{
-    background-color: blue;
+    background-color: tomato;
     color:white;
 }
 

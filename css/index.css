@@ -70,7 +70,31 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.nav-bar header{
+    margin: 30px 0;
+    display: flex;
+    align-items: flex-end;
+}
 
+.jumboHeader{
+    margin-bottom: 30px;
+}
+
+.nav-bar header nav a{
+    align-content: center;
+    text-decoration: none;
+    color:black;
+    margin-left: 70px;
+    transition: .2s;
+}
+
+.nav-bar header nav a:hover{
+    background-color:black;
+    transform: scale(1.1);
+    color:white;
+    padding: 5px 10px;
+    margin-left: 50px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,7 +102,6 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;

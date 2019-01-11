@@ -89,7 +89,7 @@ p {
 }
 
 .nav-bar header nav a:hover{
-    background-color:black;
+    background-color:blue;
     transform: scale(1.1);
     color:white;
     padding: 5px 10px;
@@ -196,3 +196,54 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.jumboAbout{
+    margin:15px 0 10px 0;
+        width: 100%;
+        height: auto;
+}
+
+.aboutMain{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted black
+}
+
+.paraContainer{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+    width: 800px;
+}
+
+.paraContainer .para{
+    display: flex;
+    flex-direction: column;
+    width:370px;
+    height: 420px;
+    border-bottom: 1px dotted gray;
+    margin-bottom:20px;
+}
+.paraContainer .para p{
+    margin: 20px 0;
+}
+.paraContainer .para .paraContent{
+    margin: 15px 0;
+}
+.paraContainer .para a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 15px;
+    transition:.2s;
+}
+.paraContainer .para a:hover{
+    background-color: blue;
+    color:white;
+}
+
+    
+    

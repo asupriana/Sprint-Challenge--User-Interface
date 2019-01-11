@@ -89,7 +89,7 @@ p {
 }
 
 .nav-bar header nav a:hover{
-    background-color: teal;
+    background-color: turquoise;
     transform: scale(1.1);
     color:white;
     padding: 5px 10px;
